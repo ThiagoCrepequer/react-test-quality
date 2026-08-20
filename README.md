@@ -1,6 +1,6 @@
 # React Test Quality
 
-**[Instalar com skills.sh](https://skills.sh/ThiagoCrepequer/react-test-quality)**
+**[Instalar com skills.sh](https://skills.sh/thiagocrepequer/react-test-quality/react-test-quality)**
 
 ```bash
 npx skills add ThiagoCrepequer/react-test-quality
