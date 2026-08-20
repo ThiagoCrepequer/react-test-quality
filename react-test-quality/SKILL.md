@@ -1,6 +1,7 @@
 ---
 name: react-test-quality
 description: Teach, design, write, strengthen, or review trustworthy tests for React and JavaScript/TypeScript frontends. Use for regression tests, weak or false-positive tests, Testing Library strategy, user interactions, API/network behavior, async state, stores/caches/routers, browser tests, accessibility-facing behavior, Vitest/Jest coverage quality, StrykerJS mutation testing, flakiness, or test-quality audits. Do not use merely to run an unchanged suite.
+license: MIT
 ---
 
 # React and JavaScript Test Quality
