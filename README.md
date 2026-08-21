@@ -1,39 +1,39 @@
 # React Test Quality
 
-**[Instalar com skills.sh](https://skills.sh/thiagocrepequer/react-test-quality/react-test-quality)**
+[![Install with skills.sh](https://skills.sh/b/ThiagoCrepequer/react-test-quality)](https://www.skills.sh/thiagocrepequer/react-test-quality/react-test-quality)
 
 ```bash
 npx skills add ThiagoCrepequer/react-test-quality
 ```
 
-Skill para agentes de código projetarem, escreverem e revisarem testes confiáveis em React e JavaScript/TypeScript.
+An agent skill for designing, writing, strengthening, and reviewing trustworthy tests in React and JavaScript/TypeScript projects.
 
-## O que ela faz
+## What it does
 
-Orienta o agente a transformar fluxos do usuário e contratos públicos em evidências executáveis. A skill cobre Testing Library, Vitest/Jest, interações reais, acessibilidade, rede, formulários, stores, caches, roteamento, concorrência assíncrona, testes de navegador e StrykerJS.
+It teaches coding agents to turn user flows and public contracts into executable evidence. It covers Testing Library, Vitest/Jest, realistic interactions, accessibility, network behavior, forms, stores, caches, routing, asynchronous races, browser tests, and StrykerJS.
 
-Ela ajuda a evitar testes que passam sem provar a experiência, como verificar apenas que um elemento existe, mockar hooks e clientes essenciais, depender de snapshots amplos, compartilhar estado entre cenários ou mostrar sucesso sem validar requisição e resposta.
+It rejects tests that pass without proving the experience: presence-only assertions, mocked-away hooks or clients, broad snapshots, shared state, arbitrary waits, and success states that do not validate the request and response.
 
-## Filosofia
+## Philosophy
 
-Um bom teste deve ser simultaneamente:
+A good test should be:
 
-- **sensível a regressões:** uma quebra plausível no comportamento faz o teste falhar;
-- **tolerante a refatorações:** componentes, hooks e estado podem mudar internamente sem quebrar o contrato;
-- **centrado no usuário:** interage e observa pela superfície pública e acessível;
-- **isolado e determinístico:** cada teste recebe stores, caches, handlers, timers e dados novos;
-- **honesto:** distingue evidência de componente, rede e navegador e explicita o que não foi provado.
+- **Bug-sensitive:** a plausible regression makes it fail.
+- **Refactor-tolerant:** components, hooks, and state can change internally without breaking the contract.
+- **User-centered:** it interacts and observes through the public, accessible surface.
+- **Isolated and deterministic:** every test receives fresh stores, caches, handlers, timers, and data.
+- **Honest:** it distinguishes component, network, and browser evidence and states what remains unproved.
 
-Mutation score e cobertura são sinais de diagnóstico. A confiança vem de estados significativos, interações fiéis e um oráculo independente capaz de detectar resultados incorretos, efeitos proibidos e condições de corrida.
+Mutation score and coverage are diagnostic signals. Confidence comes from meaningful states, faithful interactions, and an independent oracle capable of detecting incorrect outcomes, forbidden effects, and race conditions.
 
-## Conteúdo
+## Contents
 
-O entrypoint está em [`react-test-quality/SKILL.md`](react-test-quality/SKILL.md). As referências aprofundam princípios de bons testes, camadas frontend, asserções semânticas, fixtures, test doubles, isolamento assíncrono e análise de mutações.
+The entrypoint is [`react-test-quality/SKILL.md`](react-test-quality/SKILL.md). Its references cover good-test principles, frontend test layers, semantic assertions, fixtures, test doubles, asynchronous isolation, and mutation analysis.
 
-## Uso
+## Usage
 
 ```text
-$react-test-quality Escreva testes para este formulário e prove payload, resultado visível e ausência de submissão duplicada.
+$react-test-quality Test this form and prove its payload, visible outcome, and duplicate-submission prevention.
 ```
 
-Licenciado sob [MIT](LICENSE).
+Licensed under [MIT](LICENSE).
